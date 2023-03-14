@@ -15,8 +15,8 @@ while True:
         print(float(first) / float(second))
     print("------------")
 
-    loop = input("Do you want to continue? Y/N")
+    loop = input("Do you want to continue? Y/N ")
     print("------------")
-    if str(loop).lower() == "y":
+    if loop.lower() == "n":
         break
 
